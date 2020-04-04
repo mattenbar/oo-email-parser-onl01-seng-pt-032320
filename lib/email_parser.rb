@@ -12,6 +12,7 @@ end
 
 def parse
     parsed_emails = email_addresses.split(/[, ]/).uniq
+    parsed_emails = parsed_emails.reject {|email_address| email_address.empty?}
 end
 
 
