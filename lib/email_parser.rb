@@ -11,7 +11,7 @@ def initialize(email_addresses = nil)
   parse(email_addresses)
 end
 
-def parse
+def self.parse
     parsed_emails = email_addresses.split(",")
 end
 
