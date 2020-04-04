@@ -4,9 +4,10 @@
 # or whitespace (' ').
 class EmailAddressParser
 
+@@email_addresses = []
 
-def parse(emails)
-    
+def parse(email_addresses)
+    parsed_emails = email_addresses.split(",")
 end
 
 
