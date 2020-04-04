@@ -11,8 +11,7 @@ def initialize(email_addresses)
 end
 
 def parse
-    parsed_emails = email_addresses.split(/[, ]/).chomp
-    
+    parsed_emails = email_addresses.split(/[, ]/)
 end
 
 
