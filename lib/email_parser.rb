@@ -6,7 +6,7 @@ class EmailAddressParser
 
 @@email_addresses = []
 
-def parse(email_addresses)
+def parse
     parsed_emails = email_addresses.split(",")
 end
 
