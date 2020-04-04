@@ -8,7 +8,7 @@ class EmailAddressParser
 
 
 def initialize(email_addresses = nil)
-  parse(email_addresses)
+  parsed_emails = email_addresses.split(",")
 end
 
 def self.parse
