@@ -7,7 +7,7 @@ class EmailAddressParser
 @@email_addresses = []
 attr_accessor :email_addresses
 
-def initialize(email_addresses = nil)
+def initialize(email_addresses)
   parsed_emails = email_addresses.split(",")
 end
 
